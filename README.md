@@ -6,4 +6,10 @@ More specifically, for a given network, we employ the set of maximal cliques whi
 
 The objective function is motivated by the intuition that nodes densely interconnected with edges in a given graph are likely to exhibit similar labels.
 
-A detail explanation of the function is presented in https://arxiv.org/abs/2310.10114
+A detail explanation of the function is presented in https://arxiv.org/abs/2310.10114.
+
+Files demonstrate the structure of the objective function and applying method of maximal cliques as well as optimization procedure. 
+
+Balanced and Imbalanced experiments.ipynb : Experiment on balanced and imbalanced generated model using the planted partition model
+
+function.py : utils and function
