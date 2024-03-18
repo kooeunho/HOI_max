@@ -15,5 +15,6 @@ Balanced and Imbalanced experiments.ipynb : Experiment on balanced and imbalance
 function.py : utils and function
 
 Abstract
+
 In network analysis with higher-order interactions, utilizing all of the cliques in the network appears natural and intuitive. However, this strategy frequently experiences computational inefficiencies due to overlapping information in both higherorder and lower-order cliques. This paper describes and validates a strategy based on the maximal cliques for semi-supervised node classification tasks that takes advantage of higher-order network structure. The findings indicate that the maximal clique approach performs similarly while training on significantly fewer cliques than the allcliques strategy, and furthermore, maximal cliques outperform pairwise interactions in both balanced and imbalanced networks. This implies that the network structure can be adequately extracted using only maximal cliques, despite utilizing significantly fewer
 cliques than the all-cliques approach, resulting in substantial computational reduction.
